@@ -36,7 +36,12 @@ namespace ChinookSystem.Entities
 
         public int? Bytes { get; set; }
 
-        [Range(0.00, int.MaxValue, ErrorMessage = "Units Price  must be 0 or greater")]
         public decimal UnitPrice { get; set; }
+
+        public virtual Album Album { get; set; }
+
+        public virtual Genre Genre { get; set; }
+
+        public virtual MediaType MediaType { get; set; }
     }
 }
