@@ -101,7 +101,7 @@
                                 <div class="dropdown-menu" aria-labelledby="navbarSubMenu">
                                     <a class="dropdown-item"
                                         href="~/SamplePages/TestPage.aspx"
-                                        style="color: black" runat="server">RadioButtons</a>
+                                        style="color: black" runat="server">Test Page</a>
                                 </div>
                             </li>
                             <li class="nav-item">
@@ -143,7 +143,7 @@
         </div>
 
 
-        <div class="container body-content">
+        <div class="container-fluid">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
