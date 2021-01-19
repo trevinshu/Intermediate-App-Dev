@@ -3,6 +3,7 @@ D:\User Folders\Documents\GitHub\Intermediate-App-Dev\ChinookDemoSolution\Chinoo
 D:\User Folders\Documents\GitHub\Intermediate-App-Dev\ChinookDemoSolution\ChinookSystem\bin\Debug\ChinookSystem.pdb
 D:\User Folders\Documents\GitHub\Intermediate-App-Dev\ChinookDemoSolution\ChinookSystem\bin\Debug\EntityFramework.dll
 D:\User Folders\Documents\GitHub\Intermediate-App-Dev\ChinookDemoSolution\ChinookSystem\bin\Debug\EntityFramework.SqlServer.dll
+D:\User Folders\Documents\GitHub\Intermediate-App-Dev\ChinookDemoSolution\ChinookSystem\bin\Debug\FreeCode.Exceptions.dll
 D:\User Folders\Documents\GitHub\Intermediate-App-Dev\ChinookDemoSolution\ChinookSystem\bin\Debug\EntityFramework.xml
 D:\User Folders\Documents\GitHub\Intermediate-App-Dev\ChinookDemoSolution\ChinookSystem\bin\Debug\EntityFramework.SqlServer.xml
 D:\User Folders\Documents\GitHub\Intermediate-App-Dev\ChinookDemoSolution\ChinookSystem\obj\Debug\ChinookSystem.csproj.CoreCompileInputs.cache

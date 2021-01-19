@@ -37,6 +37,8 @@ D:\User Folders\Documents\GitHub\Intermediate-App-Dev\ChinookDemoSolution\WebApp
 D:\User Folders\Documents\GitHub\Intermediate-App-Dev\ChinookDemoSolution\WebApp\bin\ChinookSystem.dll
 D:\User Folders\Documents\GitHub\Intermediate-App-Dev\ChinookDemoSolution\WebApp\bin\EntityFramework.dll
 D:\User Folders\Documents\GitHub\Intermediate-App-Dev\ChinookDemoSolution\WebApp\bin\EntityFramework.SqlServer.dll
+D:\User Folders\Documents\GitHub\Intermediate-App-Dev\ChinookDemoSolution\WebApp\bin\FreeCode.Exceptions.dll
+D:\User Folders\Documents\GitHub\Intermediate-App-Dev\ChinookDemoSolution\WebApp\bin\FreeCode.WebApp.dll
 D:\User Folders\Documents\GitHub\Intermediate-App-Dev\ChinookDemoSolution\WebApp\bin\Microsoft.AspNet.FriendlyUrls.dll
 D:\User Folders\Documents\GitHub\Intermediate-App-Dev\ChinookDemoSolution\WebApp\bin\Microsoft.AspNet.Identity.Core.dll
 D:\User Folders\Documents\GitHub\Intermediate-App-Dev\ChinookDemoSolution\WebApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
@@ -62,6 +64,7 @@ D:\User Folders\Documents\GitHub\Intermediate-App-Dev\ChinookDemoSolution\WebApp
 D:\User Folders\Documents\GitHub\Intermediate-App-Dev\ChinookDemoSolution\WebApp\bin\ChinookSystem.dll.config
 D:\User Folders\Documents\GitHub\Intermediate-App-Dev\ChinookDemoSolution\WebApp\bin\EntityFramework.xml
 D:\User Folders\Documents\GitHub\Intermediate-App-Dev\ChinookDemoSolution\WebApp\bin\EntityFramework.SqlServer.xml
+D:\User Folders\Documents\GitHub\Intermediate-App-Dev\ChinookDemoSolution\WebApp\bin\FreeCode.WebApp.pdb
 D:\User Folders\Documents\GitHub\Intermediate-App-Dev\ChinookDemoSolution\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\User Folders\Documents\GitHub\Intermediate-App-Dev\ChinookDemoSolution\WebApp\bin\Microsoft.Owin.xml
 D:\User Folders\Documents\GitHub\Intermediate-App-Dev\ChinookDemoSolution\WebApp\bin\Microsoft.Owin.Host.SystemWeb.xml

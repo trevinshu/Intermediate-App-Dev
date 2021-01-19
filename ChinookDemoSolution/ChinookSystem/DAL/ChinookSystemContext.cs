@@ -7,7 +7,7 @@ using ChinookSystem.Entities;
 #endregion
 namespace ChinookSystem.DAL
 {
-    public partial class ChinookSystemContext : DbContext
+    internal partial class ChinookSystemContext : DbContext
     {
         public ChinookSystemContext()
             : base("name=ChinookDB")
