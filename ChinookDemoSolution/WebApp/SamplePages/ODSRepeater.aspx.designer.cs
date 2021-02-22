@@ -11,25 +11,34 @@ namespace WebApp.SamplePages
 {
 
 
-    public partial class ArtistAlbums
+    public partial class ODSRepeater
     {
 
         /// <summary>
-        /// ArtistAlbumsList control.
+        /// MessageUserControl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView ArtistAlbumsList;
+        protected global::FreeCode.WebApp.UserControls.MessageUserControl MessageUserControl;
 
         /// <summary>
-        /// ArtistAlbumsListODS control.
+        /// EmployeeCustomers control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ObjectDataSource ArtistAlbumsListODS;
+        protected global::System.Web.UI.WebControls.Repeater EmployeeCustomers;
+
+        /// <summary>
+        /// EmployeeCustomersODS control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ObjectDataSource EmployeeCustomersODS;
     }
 }
