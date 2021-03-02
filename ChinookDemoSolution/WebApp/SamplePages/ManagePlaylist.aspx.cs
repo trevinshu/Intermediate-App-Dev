@@ -24,9 +24,16 @@ namespace WebApp.SamplePages
 
         protected void ArtistFetch_Click(object sender, EventArgs e)
         {
-            
-                //code to go here
 
+            TracksBy.Text = "Artist";
+            if(string.IsNullOrEmpty(ArtistName.Text))
+            {
+                MessageUserControl.ShowInfo("Artist Search", "No artist name was supplied");
+            }
+            //HiddenField, though text fields, are accessed by property value, NOT Text
+            SearchArg.Value = ArtistName.Text;
+            //To cause an ODS to re-execute, you only need to do a .DataBind against the control
+            TracksSelectionList.DataBind();
           }
 
 
@@ -39,8 +46,15 @@ namespace WebApp.SamplePages
 
         protected void AlbumFetch_Click(object sender, EventArgs e)
         {
-
-                //code to go here
+            TracksBy.Text = "Album";
+            if (string.IsNullOrEmpty(AlbumTitle.Text))
+            {
+                MessageUserControl.ShowInfo("Artist Search", "No album title was supplied");
+            }
+            //HiddenField, though text fields, are accessed by property value, NOT Text
+            SearchArg.Value = AlbumTitle.Text;
+            //To cause an ODS to re-execute, you only need to do a .DataBind against the control
+            TracksSelectionList.DataBind();
 
         }
 
@@ -82,5 +96,51 @@ namespace WebApp.SamplePages
             
         }
 
+        #region Error Handling
+        protected void SelectCheckForException(object sender,
+               ObjectDataSourceStatusEventArgs e)
+        {
+            MessageUserControl.HandleDataBoundException(e);
+        }
+        protected void InsertCheckForException(object sender,
+              ObjectDataSourceStatusEventArgs e)
+        {
+            if (e.Exception == null)
+            {
+                MessageUserControl.ShowInfo("Process Success", "Album has been added");
+            }
+            else
+            {
+                MessageUserControl.HandleDataBoundException(e);
+            }
+
+        }
+        protected void UpdateCheckForException(object sender,
+             ObjectDataSourceStatusEventArgs e)
+        {
+            if (e.Exception == null)
+            {
+                MessageUserControl.ShowInfo("Process Success", "Album has been updated");
+            }
+            else
+            {
+                MessageUserControl.HandleDataBoundException(e);
+            }
+
+        }
+        protected void DeleteCheckForException(object sender,
+             ObjectDataSourceStatusEventArgs e)
+        {
+            if (e.Exception == null)
+            {
+                MessageUserControl.ShowInfo("Process Success", "Album has been removed");
+            }
+            else
+            {
+                MessageUserControl.HandleDataBoundException(e);
+            }
+
+        }
+        #endregion
     }
 }
