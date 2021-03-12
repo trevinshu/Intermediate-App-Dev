@@ -69,7 +69,6 @@ D:\User Folders\Documents\GitHub\Intermediate-App-Dev\ChinookDemoSolution\WebApp
 D:\User Folders\Documents\GitHub\Intermediate-App-Dev\ChinookDemoSolution\WebApp\bin\Microsoft.Owin.xml
 D:\User Folders\Documents\GitHub\Intermediate-App-Dev\ChinookDemoSolution\WebApp\bin\Microsoft.Owin.Host.SystemWeb.xml
 D:\User Folders\Documents\GitHub\Intermediate-App-Dev\ChinookDemoSolution\WebApp\bin\Microsoft.Owin.Security.xml
-D:\User Folders\Documents\GitHub\Intermediate-App-Dev\ChinookDemoSolution\WebApp\bin\Microsoft.Owin.Security.Cookies.xml
 D:\User Folders\Documents\GitHub\Intermediate-App-Dev\ChinookDemoSolution\WebApp\bin\Microsoft.Owin.Security.Facebook.xml
 D:\User Folders\Documents\GitHub\Intermediate-App-Dev\ChinookDemoSolution\WebApp\bin\Microsoft.Owin.Security.Google.xml
 D:\User Folders\Documents\GitHub\Intermediate-App-Dev\ChinookDemoSolution\WebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
